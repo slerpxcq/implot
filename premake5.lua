@@ -8,7 +8,8 @@ project "implot"
     objdir "%{wks.location}/obj/%{prj.name}/%{cfg.buildcfg}"
 
     files {
-        "*.cpp"
+        "*.cpp",
+        "*.h"
     }
 
     includedirs {
